@@ -1,7 +1,4 @@
 module.exports = {
-  router: {
-    base: '/site/MyProject/dist/'
-  },
   /*
   ** Headers of the page
   */
