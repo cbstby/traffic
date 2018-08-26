@@ -1,0 +1,71 @@
+@import "../node_modules/bulma/css/bulma.css";
+
+.whole-list-wrapper{
+    display:flex;
+    justify-content: center;
+    height:fit-content;
+    margin-top:50px;
+}
+.inputs-wrapper{
+    max-width:800px;
+}
+.result{
+    display:flex;
+    border: 1px solid black;
+    padding:10px;
+}
+.image-result-wrapper{
+    flex:1 1 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-result-wrapper{
+    flex:2 1 1%;
+}
+.circle{
+    height:30px;
+    width:30px;
+    border-radius:50%;
+}
+.circle-with-arrow{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 2px solid lightgray;
+    background-color: black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.screen{
+    background-color: lightgray;
+    padding: 2px;
+    outline: 1px solid;
+}
+.main-part{
+    background-color: black;
+    padding: 5px;
+}
+.circle-wrapper{
+    margin-top:5px;
+    margin-bottom:5px
+}
+.arrow-img{
+    height: 20px;
+    max-width: 100%;
+}
+.main>.table-wrapper{
+    margin-top:20px;
+    display:flex;
+    flex-flow:column;
+    align-items:center;
+}
+.main>.table-wrapper>.columns{
+    width:300px;
+}
+.main>.table-wrapper>.columns>.column{
+outline:1px solid black;
+}
